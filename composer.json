@@ -1,0 +1,22 @@
+{
+    "name" : "naolucho/testbundle",
+    "description" : "C'est mon bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "test",
+        "email" : "monnom@mondomaine.com"
+    }],
+    "keywords" : [
+        "test bundle"
+    ],
+    "require" : {
+            "php" : ">=5.5.9",
+            "symfony/symfony": "3.4.*"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Naolucho\\HelloBundle" : "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

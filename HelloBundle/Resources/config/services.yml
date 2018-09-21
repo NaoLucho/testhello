@@ -1,0 +1,6 @@
+services:
+#    page.example:
+#        class: PageBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    naolucho_hello.util.hello:         #inanzzz_hello must match DependencyInjection/Configuration.php line $treeBuilder->root('xxxxxxxx');
+        class: Naolucho\HelloBundle\Util\Hello
